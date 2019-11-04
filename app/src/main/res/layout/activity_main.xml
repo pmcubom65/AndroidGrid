@@ -6,7 +6,8 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity"
     android:layout_centerHorizontal="true"
-    android:layout_centerVertical="true">
+    android:layout_centerVertical="true"
+    android:background="@color/mio">
 
     <androidx.gridlayout.widget.GridLayout
         android:id="@+id/migrid"
@@ -15,12 +16,43 @@
         tools:layout_editor_absoluteX="0dp"
         app:rowCount="8"
         app:columnCount="3"
-        android:paddingRight="10px"
+
+        android:layout_margin="80px"
 
 
 
 
         tools:layout_editor_absoluteY="0dp" />
+
+
+
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="llamar por telefono"
+        app:layout_constrainedWidth="true"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toBottomOf="@id/migrid"
+        app:layout_constraintHeight_max="100px"
+        app:layout_constraintWidth_min="100px"
+        android:id="@+id/miboton"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="cambiar actividad"
+        android:background="@color/colorAccent"
+        app:layout_constrainedWidth="true"
+        app:layout_constrainedHeight="true"
+        app:layout_constraintBottom_toTopOf="@id/migrid"
+
+        app:layout_constraintHeight_max="100px"
+        app:layout_constraintWidth_min="100px"
+        android:id="@+id/botonactivity"
+        />
+
+
 </androidx.constraintlayout.widget.ConstraintLayout>
 
 

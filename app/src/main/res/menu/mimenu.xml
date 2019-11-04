@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+<item
+    android:id="@+id/primero"
+    app:showAsAction="withText"
+    android:title="uno"
+    android:orderInCategory="1"
+    />
+
+    <item
+    android:id="@+id/segundo"
+        app:showAsAction="withText"
+        android:title="dos"
+        android:orderInCategory="2"
+        />
+    <item
+        android:id="@+id/tercero"
+        app:showAsAction="withText"
+        android:title="tres"
+        android:orderInCategory="3"
+        />
+
+    <item
+        android:id="@+id/cuarto"
+        android:icon="@mipmap/ic_action_mouse"
+        app:showAsAction="always"
+        android:orderInCategory="4"
+        android:title="uno"
+        />
+    <item
+
+        android:icon="@drawable/ic_action_discard"
+        app:showAsAction="always"
+        android:orderInCategory="5"
+        android:title="uno"
+        />
+
+</menu>
